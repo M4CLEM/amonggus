@@ -1,0 +1,94 @@
+html{
+    background-color: grey;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.amonggus-body {
+    height: 350px;
+    width: 250px;
+    background-color: #880606;
+    justify-self: center;
+    border-radius: 150px 150px 30px 32px;
+    border: 20px black;
+    border-style: solid solid outset solid;
+    z-index: 1;
+}
+
+.body-shine {
+    z-index: 1;
+    height: 80%;
+    width: 90%;
+    background-color: #ff1313;
+    border-radius: 120px 90px 90px 80px;
+}
+
+.goggles {
+    height: 25%;
+    width: 80%;
+    z-index: 3;
+    border-radius: 35px 35px 35px 35px;
+    border: 15px solid black;
+    transform: translateY(-150%) translateX(-20%);
+    background-color: #08166f;
+}
+
+.top-side {
+    height: 60%;
+    width: 80%;
+    background-color: #7789f0;
+    z-index: 4;
+    border-radius: 35px 5px 70px 20px;
+
+}
+
+.shine {
+    background-color: white;
+    height: 50%;
+    width: 45%;
+    transform: translateX(40%) translateY(40%) skewY(5deg);
+    border-radius: 40%;
+}
+
+.backpack {
+    height: 60%;
+    width: 25%;
+    transform: translateX(319%) translateY(-120%);
+    background-color: #880606;
+    border-radius: 7px 15px 15px 0px;
+    border: 20px black;
+    border-style: solid solid solid none;
+    z-index: 0;
+}
+
+.backpack-shine {
+    height: 10%;
+    width: 100%;
+    background-color: #ff1313;
+    border-radius: 0px 0px 10px 10px;
+    border: 2px black;
+    border-style: solid none none none;
+}
+
+.left-foot {
+    height: 25%;
+    width: 30%;
+    transform: translateY(-277%) translateX(-10%);
+    background-color: #880606;
+    border: 20px black;
+    border-radius: 0px 25px 25px 25px;
+    border-style: none solid solid solid;
+}
+
+.right-foot {
+    height: 25%;
+    width: 30%;
+    transform: translateY(-377%) translateX(130%);
+    background-color: #880606;
+    border: 20px black;
+    border-radius: 25px 0px 25px 25px;
+    border-style: none solid solid solid;
+}
